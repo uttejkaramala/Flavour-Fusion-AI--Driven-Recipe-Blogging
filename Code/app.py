@@ -1,6 +1,6 @@
 import streamlit as st
 from PIL import Image  
-from ai_service import recipe_generation, recipe_from_image 
+from Code.ai_service import recipe_generation, recipe_from_image 
 
 st.set_page_config(page_title="Flavour Fusion", page_icon="🍳", layout="wide")
 st.title("RecepieMaster: AI-Powered Blog Generation")
