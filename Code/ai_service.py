@@ -1,7 +1,7 @@
 import os
 import google.generativeai as genai
 from dotenv import load_dotenv
-from Code.jokes_data import get_joke
+from jokes_data import get_joke
 import streamlit as st
 
 load_dotenv()
